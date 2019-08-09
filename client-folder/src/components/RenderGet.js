@@ -7,7 +7,6 @@ const RenderGet = () => {
     useEffect(() => {
         axios.get('http://localhost:5000/api/restricted/data')
         .then(res => {
-            console.log(res)
             setApiState(res.data)
         })
         .catch(err => {

@@ -6,13 +6,12 @@ import RenderGet from './components/RenderGet'
 class App extends React.Component {
   constructor(){
     super();
-    this.state = {}
   }
 
   render() {
   return (
     <div className="App">
-      <FormikUserForm user={this.state} setUser={this.setState}/>
+      <FormikUserForm />
       <RenderGet />
     </div>
   );

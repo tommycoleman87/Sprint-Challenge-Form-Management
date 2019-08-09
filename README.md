@@ -25,15 +25,15 @@ In the challenge for this Sprint, you will demonstrate proficiency by creating a
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] What are the required parts of class components?
-
+    State, Constructor, Render
 - [ ] Name at least three lifecycle methods?
-
+    componentDidMount, Render, componentDidUpdate
 - [ ] Why are forms used so often in web applications and software?
-
+    To Validate credentials and get values
 - [ ] What advantages are there by using a forms library like Formik?
-
+    Handles the state manipulation for you
 - [ ] Why do we write tests for our apps?
-
+    To help reduce bugs and edge cases.
 ## Project Set Up
 
 Follow these steps to set up and work on your project:

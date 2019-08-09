@@ -11,11 +11,11 @@ const UserForm = ({errors, touched, values, user}) => {
                 <div>
                 <Form data-testid='userform'> 
                     <Field  data-testid='name' type='text' name='username' placeholder='User Name' />
-                    {touched.name && errors.name &&(
-                    <p>{errors.name}</p>)}
+                    {touched.username && errors.username &&(
+                    <p>{errors.username}</p>)}
                     <Field  data-testid='password' type='password' name='password' placeholder='Password' />
-                    {touched.name && errors.name &&(
-                    <p>{errors.name}</p>)}
+                    {touched.password && errors.password &&(
+                    <p>{errors.password}</p>)}
                     <button data-testid='button' type='submit'>Submit</button>
                 </Form>
                 <p>{user}</p>
